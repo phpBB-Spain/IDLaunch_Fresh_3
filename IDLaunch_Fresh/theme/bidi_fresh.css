@@ -1,0 +1,22 @@
+/* RTL definitions ID Launch Fresh
+---------------------------------------- */
+
+#wrap {
+    max-width: 950px;
+    background: #FFF url("./images/bg_header.png") repeat-x scroll 0px 0px;
+    margin: 0px auto;
+    text-align: right;
+    box-shadow: 0px 0px 5px 2px #9D9A93, 0px 3px 18px rgba(100, 100, 100, 0.25) inset;
+}
+
+.sitename-header {
+	border-radius: 4px;
+	display: block;
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	margin-right: 10px;
+	margin-top: 9px;
+}

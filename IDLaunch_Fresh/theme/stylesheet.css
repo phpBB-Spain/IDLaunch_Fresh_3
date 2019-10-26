@@ -1,0 +1,363 @@
+/*  phpBB3 Style Sheet
+	--------------------------------------------------------------
+	Style name:			IDLaunch Fresh
+	Based on style:		prosilver (the default phpBB 3.3.x style)
+	Original author:	Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		David Jansen ( http://IDLaunch.nl/ )
+	Ported by:			ThE KuKa ( https://www.phpbb-es.com/ )
+	--------------------------------------------------------------
+*/
+
+/* IDLaunch Fresh Style by David Jansen @ IDLaunch.nl */
+
+#roofbar {
+	height: 35px;
+	background-image: url('./images/roofbar.jpg');
+}
+
+#roofbar ul {
+	margin: 0;
+	padding: 0;
+}
+
+#roofbar li {
+	margin: 0;
+	padding: 0px;
+	padding-right: 1px;
+	line-height: 0px;
+	list-style-type: none;
+}
+
+#roofbar li a {
+	display: block;
+	float: left;
+	color: #008ebd;
+	text-decoration: none;
+	padding: 8px 23px 13px;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+}
+
+#roofbar li a:hover, #roofbar li:hover a, #roofbar li.sfhover a {
+	color: #004d66;
+}
+
+#topbar {
+	text-align: center;
+	height: auto;
+}
+
+#header {
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	height: auto;
+}
+
+#wrap {
+    max-width: 950px;
+    background: #FFF url("./images/bg_header.png") repeat-x scroll 0px 0px;
+    margin: 0px auto;
+    text-align: left;
+    padding: 13px 23px;
+	border: 2px solid #FFF;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 2px #9D9A93, 0px 3px 18px rgba(100, 100, 100, 0.25) inset;
+}
+
+.wrapper_header {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.logo {
+	float: none;
+	width: auto;
+	padding: 2px 1px 0 2px;
+}
+
+.logo:hover {
+	text-decoration: none;
+}
+
+#menubar {
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-image: url('./images/menu.jpg');
+	border-radius: 5px;
+}
+
+#menubar > div {
+	margin: 0 auto;
+	max-width: 991px;
+}
+
+#menubar ul {
+	margin: 0;
+	padding-left: 0px;
+}
+
+#menubar li {
+	margin: 0;
+	padding: 0px;
+	padding-right: 1px;
+	line-height: 0px;
+	list-style-type: none;
+}
+
+#menubar li a {
+	display: block;
+	float: left;
+	color: #ccc;
+	text-decoration: none;
+	padding: 16px 23px 13px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+}
+
+#menubar li a:hover, #menubar li:hover a, #menubar li.sfhover a {
+	color: #ddd;
+}
+
+#menubar li.chosen a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/* Edit for IDLaunch Fresh
+--------------------------------------------- */
+
+html, body {
+	color: #536482;
+	background-color: #CDCDCD;
+}
+
+.bg1 {
+	background-color: #EDEDED;
+}
+
+table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
+	background-color: #EDEDED;
+}
+
+.bg2 {
+	background-color: #F3F3F3;
+}
+
+table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
+	background-color: #F3F3F3;
+}
+
+.bg3	{ background-color: #EEEEEE; }
+
+li.row:hover {
+	background-color: #F5F3F5;
+}
+
+ul.forums {
+	background-color: transparent;
+	background-image: none;
+}
+
+.topiclist.forums {
+    background-image: none;
+    margin: 0;
+}
+
+ul.topiclist li {
+	color: #4C5D77;
+}
+
+
+li.row {
+    background: url("./images/gradient.gif") repeat-x scroll center top #f8f8f8;
+    border: medium none transparent;
+    border-radius: 7px;
+}
+
+/* Search Box
+--------------------------------------------- */
+.search-header {
+	position: relative;
+    float: right;
+    margin-right: 5px;
+    margin-left: 7px;
+    text-align: right;
+	border-radius: 4px;
+	display: block;
+	margin-top: 5.8px;
+}
+
+.search-header {
+	box-shadow: 0 0 0px #0075B0;
+}
+
+/* Wrap
+---------------------------------------- */
+#wrap {
+	border: 1px solid transparent;
+	border-radius: 8px;
+	margin: 10px auto;
+	max-width: 991px;
+	min-width: 625px;
+	padding: 15px;
+}
+
+/* Sitename
+--------------------------------------------- */
+.sitename-header {
+	border-radius: 4px;
+	display: block;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial Narrow, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+	margin-left: 10px;
+	margin-top: 9px;
+}
+
+/* CP tabbed menu
+----------------------------------------*/
+#tabs .tab > a {
+	background: #BACCD9;
+	color: #536482;
+}
+
+#tabs .tab > a:hover {
+	background: #DDEDFB;
+	color: #D31141;
+}
+
+#tabs .activetab > a,
+#tabs .activetab > a:hover {
+	background: #EEEEEE;
+	background: -moz-linear-gradient(top, #EEEEEE 0%, #EEEEEE 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEEEEE), color-stop(100%, #EEEEEE));
+	background: -webkit-linear-gradient(top, #EEEEEE 0%, #EEEEEE 100%);
+	background: -o-linear-gradient(top, #EEEEEE 0%, #EEEEEE 100%);
+	background: -ms-linear-gradient(top, #EEEEEE 0%, #EEEEEE 100%);
+	background: linear-gradient(to bottom, #EEEEEE 0%, #EEEEEE 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#EEEEEE', endColorstr='#EEEEEE', GradientType=0 );
+	border-color: #EEEEEE;
+	box-shadow: 0 1px 1px #F2F9FF inset;
+	color: #333333;
+}
+
+#tabs .activetab > a:hover {
+	color: #000000;
+}
+
+/* Mini tabbed menu used in MCP
+----------------------------------------*/
+#minitabs .tab > a {
+	background-color: #E1EBF2;
+}
+
+#minitabs .activetab > a,
+#minitabs .activetab > a:hover {
+	background-color: #F9F9F9;
+	color: #333333;
+}
+
+/* Logo IDLaunch Fresh */
+
+.site_logo {
+	background-image: url("./images/site_logo.png");
+    padding-left: 662px;
+    padding-top: 73px;
+    display: inline-block;
+    width: 1px;
+    height: 5px;
+}
+
+/* Forum icons & Topic icons */
+
+.global_read						{ background-image: url("./images/announce_read.gif"); }
+.global_read_mine					{ background-image: url("./images/announce_read_mine.gif"); }
+.global_read_locked					{ background-image: url("./images/announce_read_locked.gif"); }
+.global_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.gif"); }
+.global_unread						{ background-image: url("./images/announce_unread.gif"); }
+.global_unread_mine					{ background-image: url("./images/announce_unread_mine.gif"); }
+.global_unread_locked				{ background-image: url("./images/announce_unread_locked.gif"); }
+.global_unread_locked_mine			{ background-image: url("./images/announce_unread_locked_mine.gif"); }
+
+.announce_read						{ background-image: url("./images/announce_read.gif"); }
+.announce_read_mine					{ background-image: url("./images/announce_read_mine.gif"); }
+.announce_read_locked				{ background-image: url("./images/announce_read_locked.gif"); }
+.announce_read_locked_mine			{ background-image: url("./images/announce_read_locked_mine.gif"); }
+.announce_unread					{ background-image: url("./images/announce_unread.gif"); }
+.announce_unread_mine				{ background-image: url("./images/announce_unread_mine.gif"); }
+.announce_unread_locked				{ background-image: url("./images/announce_unread_locked.gif"); }
+.announce_unread_locked_mine		{ background-image: url("./images/announce_unread_locked_mine.gif"); }
+
+.forum_link							{ background-image: url("./images/forum_link.gif"); }
+.forum_read							{ background-image: url("./images/forum_read.gif"); }
+.forum_read_locked					{ background-image: url("./images/forum_read_locked.gif"); }
+.forum_read_subforum				{ background-image: url("./images/forum_read_subforum.gif"); }
+.forum_unread						{ background-image: url("./images/forum_unread.gif"); }
+.forum_unread_locked				{ background-image: url("./images/forum_unread_locked.gif"); }
+.forum_unread_subforum				{ background-image: url("./images/forum_unread_subforum.gif"); }
+
+.sticky_read						{ background-image: url("./images/sticky_read.gif"); }
+.sticky_read_mine					{ background-image: url("./images/sticky_read_mine.gif"); }
+.sticky_read_locked					{ background-image: url("./images/sticky_read_locked.gif"); }
+.sticky_read_locked_mine			{ background-image: url("./images/sticky_read_locked_mine.gif"); }
+.sticky_unread						{ background-image: url("./images/sticky_unread.gif"); }
+.sticky_unread_mine					{ background-image: url("./images/sticky_unread_mine.gif"); }
+.sticky_unread_locked				{ background-image: url("./images/sticky_unread_locked.gif"); }
+.sticky_unread_locked_mine			{ background-image: url("./images/sticky_unread_locked_mine.gif"); }
+
+.topic_moved						{ background-image: url("./images/topic_moved.gif"); }
+.topic_read							{ background-image: url("./images/topic_read.gif"); }
+.topic_read_mine					{ background-image: url("./images/topic_read_mine.gif"); }
+.topic_read_hot						{ background-image: url("./images/topic_read_hot.gif"); }
+.topic_read_hot_mine				{ background-image: url("./images/topic_read_hot_mine.gif"); }
+.topic_read_locked					{ background-image: url("./images/topic_read_locked.gif"); }
+.topic_read_locked_mine				{ background-image: url("./images/topic_read_locked_mine.gif"); }
+.topic_unread						{ background-image: url("./images/topic_unread.gif"); }
+.topic_unread_mine					{ background-image: url("./images/topic_unread_mine.gif"); }
+.topic_unread_hot					{ background-image: url("./images/topic_unread_hot.gif"); }
+.topic_unread_hot_mine				{ background-image: url("./images/topic_unread_hot_mine.gif"); }
+.topic_unread_locked				{ background-image: url("./images/topic_unread_locked.gif"); }
+.topic_unread_locked_mine			{ background-image: url("./images/topic_unread_locked_mine.gif"); }
+
+.pm_read							{ background-image: url("./images/topic_read.gif"); }
+.pm_unread							{ background-image: url("./images/topic_unread.gif"); }
+
+/* CSS General
+--------------------------------------------- */
+
+.headerbar {
+	background-color: #7C8891;
+	background-image: url("{./images/bg_header.gif");
+	color: #FFFFFF;
+}
+
+.navbar {
+	background-color: #F5F3F5;
+}
+
+.forabg, .forumbg {
+	background-color: #dcdcdc;
+	background-image: url("./images/bg_list.gif");
+}
+
+ /* Miscellaneous styles
+ ---------------------------------------- */
+ .copyright {
+	font-size: 10px;
+ 	text-align: center;
+	padding: 10px;
+}
+
+.footer-row {
+	font-size: 10px;
+	line-height: 1.8;
+	margin: 0;
+}
+ 
