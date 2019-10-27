@@ -360,4 +360,8 @@ li.row {
 	line-height: 1.8;
 	margin: 0;
 }
- 
+
+.cc-color-override--1687565279.cc-window {
+    background-color: #b0b0b0;
+	color: rgb(255, 255, 255);
+}
