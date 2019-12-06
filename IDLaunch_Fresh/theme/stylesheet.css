@@ -12,7 +12,7 @@
 
 #roofbar {
 	height: 35px;
-	background-image: url('./images/roofbar.jpg');
+	background-image: url("./images/roofbar.jpg");
 }
 
 #roofbar ul {
@@ -334,7 +334,7 @@ li.row {
 
 .headerbar {
 	background-color: #7C8891;
-	background-image: url("{./images/bg_header.gif");
+	background-image: url("./images/bg_header.gif");
 	color: #FFFFFF;
 }
 
@@ -345,6 +345,14 @@ li.row {
 .forabg, .forumbg {
 	background-color: #dcdcdc;
 	background-image: url("./images/bg_list.gif");
+}
+
+li.row:hover dd {
+    border-left-color: #F5F3F5;
+}
+
+ul.topiclist dd {
+    border-left-color: #F5F3F5;
 }
 
  /* Miscellaneous styles
@@ -359,9 +367,4 @@ li.row {
 	font-size: 10px;
 	line-height: 1.8;
 	margin: 0;
-}
-
-.linklist i {
-    color: #0096C8;
-    text-shadow: 2px 2px 3px #ffffff;
 }
