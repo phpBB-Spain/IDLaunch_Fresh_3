@@ -343,8 +343,10 @@ li.row {
 }
 
 .forabg, .forumbg {
-	background-color: #dcdcdc;
-	background-image: url("./images/bg_list.gif");
+    background-color: #DCDCDC;
+    background-image: -webkit-linear-gradient(top, #DCDCDC 0%, #CDCDCD 2px,#B7B7B7 92px, #C9C9C9 100%);
+    background-image: linear-gradient(to bottom, #DCDCDC 0%,#CDCDCD 2px,#B7B7B7 92px,#C9C9C9 100%);
+    background-repeat: repeat-x;
 }
 
 li.row:hover dd {
