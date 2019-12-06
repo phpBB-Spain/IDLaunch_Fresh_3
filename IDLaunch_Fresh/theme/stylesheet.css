@@ -332,21 +332,16 @@ li.row {
 /* CSS General
 --------------------------------------------- */
 
-.headerbar {
-	background-color: #7C8891;
-	background-image: url("./images/bg_header.gif");
-	color: #FFFFFF;
-}
-
 .navbar {
 	background-color: #F5F3F5;
 }
 
-.forabg, .forumbg {
+.forabg, .forumbg, .headerbar {
     background-color: #DCDCDC;
     background-image: -webkit-linear-gradient(top, #DCDCDC 0%, #CDCDCD 2px,#B7B7B7 92px, #C9C9C9 100%);
     background-image: linear-gradient(to bottom, #DCDCDC 0%,#CDCDCD 2px,#B7B7B7 92px,#C9C9C9 100%);
     background-repeat: repeat-x;
+	color: #FFFFFF;
 }
 
 li.row:hover dd {
