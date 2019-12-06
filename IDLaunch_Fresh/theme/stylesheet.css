@@ -86,7 +86,7 @@
 	height: 35px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	background-image: url('./images/menu.jpg');
+	background-image: url("./images/menu.jpg");
 	border-radius: 5px;
 }
 
@@ -152,7 +152,9 @@ table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 	background-color: #F3F3F3;
 }
 
-.bg3	{ background-color: #EEEEEE; }
+.bg3 {
+	background-color: #EEEEEE;
+}
 
 li.row:hover {
 	background-color: #F5F3F5;
@@ -172,11 +174,21 @@ ul.topiclist li {
 	color: #4C5D77;
 }
 
-
 li.row {
-    background: url("./images/gradient.gif") repeat-x scroll center top #f8f8f8;
+	background-color: #F5F3F5;
+    background-image: -webkit-linear-gradient(top, #F5F3F5 0%, #CDCDCD 2px,#B7B7B7 92px, #C9C9C9 100%);
+    background-image: linear-gradient(to bottom, #F5F3F5 0%,#F5F3F5 2px,#F5F3F5 92px,#C9C9C9 100%);
+    background-repeat: repeat-x;
     border: medium none transparent;
     border-radius: 7px;
+}
+
+li.row:hover dd {
+    border-left-color: #F5F3F5;
+}
+
+ul.topiclist dd {
+    border-left-color: #F5F3F5;
 }
 
 /* Search Box
@@ -342,14 +354,6 @@ li.row {
     background-image: linear-gradient(to bottom, #DCDCDC 0%,#CDCDCD 2px,#B7B7B7 92px,#C9C9C9 100%);
     background-repeat: repeat-x;
 	color: #FFFFFF;
-}
-
-li.row:hover dd {
-    border-left-color: #F5F3F5;
-}
-
-ul.topiclist dd {
-    border-left-color: #F5F3F5;
 }
 
  /* Miscellaneous styles
