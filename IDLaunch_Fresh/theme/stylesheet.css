@@ -57,7 +57,10 @@
 
 #wrap {
     max-width: 950px;
-    background: #FFF url("./images/bg_header.png") repeat-x scroll 0px 0px;
+    background-color: #DCDCDC;
+    background-image: -webkit-linear-gradient(top, #D0D0D0 0%, #F5F5F5 2px,#FBFBFB 92px, #E5E5E5 100%);
+    background-image: linear-gradient(to bottom, #D0D0D0 0%, #F5F5F5 2px,#FBFBFB 92px, #E5E5E5 100%);
+    background-repeat: repeat-x;
     margin: 0px auto;
     text-align: left;
     padding: 13px 23px;
