@@ -57,7 +57,10 @@
 
 #wrap {
     max-width: 950px;
-    background: #FFF url("./images/bg_header.png") repeat-x scroll 0px 0px;
+    background-color: #DCDCDC;
+    background-image: -webkit-linear-gradient(top, #D0D0D0 0%, #F5F5F5 2px, #FBFBFB 92px, #E5E5E5 100%);
+    background-image: linear-gradient(to bottom, #D0D0D0 0%, #F5F5F5 2px, #FBFBFB 92px, #E5E5E5 100%);
+    background-repeat: repeat-x;
     margin: 0px auto;
     text-align: left;
     padding: 13px 23px;
@@ -86,7 +89,10 @@
 	height: 35px;
 	margin-top: 5px;
 	margin-bottom: 5px;
-	background-image: url("./images/menu.jpg");
+    background-color: #01A6DC;
+    background-image: -webkit-linear-gradient(top, #01A6DC 0%, #0091C3 2px, #0094C6 92px, #01A6DC 100%);
+    background-image: linear-gradient(to bottom, #01A6DC 0%, #0091C3 2px, #0094C6 92px, #01A6DC 100%);
+    background-repeat: repeat-x;
 	border-radius: 5px;
 }
 
@@ -354,6 +360,11 @@ ul.topiclist dd {
     background-image: linear-gradient(to bottom, #DCDCDC 0%,#CDCDCD 2px,#B7B7B7 92px,#C9C9C9 100%);
     background-repeat: repeat-x;
 	color: #FFFFFF;
+}
+
+.panel {
+    background-color: #EDEDED;
+    color: #28313F;
 }
 
  /* Miscellaneous styles
