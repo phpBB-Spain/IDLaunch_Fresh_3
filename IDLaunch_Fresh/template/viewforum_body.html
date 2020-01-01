@@ -28,7 +28,7 @@
 <!-- IF S_HAS_SUBFORUM -->
 <!-- IF not S_IS_BOT and U_MARK_FORUMS -->
 	<div class="action-bar compact">
-		<a href="{U_MARK_FORUMS}" class="mark-read rightside" data-ajax="mark_forums_read"><i class="fa fa-check"></i> {L_MARK_SUBFORUMS_READ}</a>
+		<a href="{U_MARK_FORUMS}" title="{L_MARK_SUBFORUMS_READ}" class="mark-read rightside" data-ajax="mark_forums_read"><i class="icon icon-lg fa fa-check"></i></a>
 	</div>
 <!-- ENDIF -->
 	<!-- INCLUDE forumlist_body.html -->
@@ -68,7 +68,7 @@
 	<!-- ENDIF -->
 
 	<div class="pagination">
-		<!-- IF not S_IS_BOT and U_MARK_TOPICS and .topicrow --><a href="{U_MARK_TOPICS}" class="mark" accesskey="m" data-ajax="mark_topics_read"><i class="fa fa-check"></i> {L_MARK_TOPICS_READ}</a> &bull; <!-- ENDIF -->
+		<!-- IF not S_IS_BOT and U_MARK_TOPICS and .topicrow --><a href="{U_MARK_TOPICS}" title="{L_MARK_TOPICS_READ}" class="mark" accesskey="m" data-ajax="mark_topics_read"><i class="icon icon-lg fa fa-check"></i></a> <!-- ENDIF -->
 		{TOTAL_TOPICS}
 		<!-- IF .pagination -->
 			<!-- INCLUDE pagination.html -->
@@ -289,7 +289,7 @@
 		<!-- ENDIF -->
 
 		<div class="pagination">
-			<!-- IF not S_IS_BOT and U_MARK_TOPICS and .topicrow --><a href="{U_MARK_TOPICS}" data-ajax="mark_topics_read"><i class="fa fa-check"></i> {L_MARK_TOPICS_READ}</a> &bull; <!-- ENDIF -->
+			<!-- IF not S_IS_BOT and U_MARK_TOPICS and .topicrow --><a href="{U_MARK_TOPICS}" title="{L_MARK_TOPICS_READ}" class="mark" accesskey="m" data-ajax="mark_topics_read"><i class="icon icon-lg fa fa-check"></i></a> <!-- ENDIF -->
 			{TOTAL_TOPICS}
 			<!-- IF .pagination -->
 				<!-- INCLUDE pagination.html -->
