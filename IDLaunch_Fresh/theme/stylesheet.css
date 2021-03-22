@@ -410,3 +410,6 @@ li.header dt, li.header dd {
     color: #000000;
 }
 
+table.table1 thead th {
+    color: #000000;
+}
