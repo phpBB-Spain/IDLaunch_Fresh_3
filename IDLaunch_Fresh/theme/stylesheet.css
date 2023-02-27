@@ -367,9 +367,9 @@ ul.topiclist dd {
     color: #28313F;
 }
 
- /* Miscellaneous styles
- ---------------------------------------- */
- .copyright {
+/* Miscellaneous styles
+----------------------------------------- */
+.copyright {
 	font-size: 10px;
  	text-align: center;
 	padding: 10px;
@@ -384,4 +384,11 @@ ul.topiclist dd {
 .linklist i {
     color: #0096C8;
     text-shadow: 2px 2px 3px #ffffff;
+}
+
+/* CSS Extensions
+--------------------------------------------- */
+
+#phpbb_announcement {
+	background-color: #CACACA; /* IDLaunch colour */
 }
